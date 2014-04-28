@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GMTool</string>
+    <string name="start_NPC_selection_button">Select NPC</string>
+    <string name="npc_select">Select NPC</string>
+    <string name="new_npc">Create New NPC</string>
+    <string name="npc_name">Name</string>
+    <string name="npc_might">Might</string>
+    <string name="npc_mind">Mind</string>
+    <string name="npc_type_villain">Villain</string>
+    <string name="npc_type_npc">NPC</string>
+</resources>

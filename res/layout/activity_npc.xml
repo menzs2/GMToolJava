@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/npc_type_villain"
+            android:id="@+id/switch1"/>
+
+    <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:columnCount="4"
+            android:layout_marginLeft="10dp"
+        >
+
+    <TextView android:layout_column="0"
+              android:layout_columnSpan="2"
+              android:layout_gravity="left"
+              android:layout_marginTop="40dp"
+              android:layout_row="0"
+              android:text="@string/npc_name"
+            />
+
+    <EditText
+            android:layout_column="2"
+            android:layout_columnSpan="2"
+            android:layout_gravity="left"
+            android:layout_marginTop="40dp"
+            android:layout_row="0"
+
+            />
+
+    <TextView android:layout_column="0"
+              android:layout_columnSpan="1"
+              android:layout_gravity="center_horizontal"
+              android:layout_row="1"
+              android:text="Might"
+            />
+
+    <EditText
+            android:layout_column="1"
+            android:layout_columnSpan="1"
+            android:layout_gravity="center_horizontal"
+            android:layout_row="1"
+            android:inputType="numberDecimal"
+            />
+
+    <TextView android:layout_column="2"
+              android:layout_columnSpan="1"
+              android:layout_gravity="left"
+              android:layout_row="1"
+              android:layout_marginLeft="20pt"
+              android:text="@string/npc_mind"
+            />
+
+    <EditText
+            android:layout_column="3"
+            android:layout_columnSpan="1"
+            android:layout_gravity="left"
+            android:layout_row="1"
+            android:inputType="numberDecimal"
+            />
+
+
+</GridLayout>
+</LinearLayout>

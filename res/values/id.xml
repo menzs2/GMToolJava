@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="startButton" type="id"/>
+    <item name="selectNPCList" type="id"/>
+    <item name="newNpcButton" type="id"/>
+
+</resources>
