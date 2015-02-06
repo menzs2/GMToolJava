@@ -3,6 +3,9 @@ package com.example.GMTool;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
@@ -35,15 +38,24 @@ public class selectNPCList extends ListActivity {
         setListAdapter(adapter);
     }
 
+    public boolean onCreateOptionsMenu(Menu menu){
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.main, menu);
+
+        menu.getItem(0).setOnMenuItemClickListener(new MenuItem.OnMenuItemClickListener() {
+
+            @Override
+            public boolean onMenuItemClick(MenuItem item) {
+                Intent intent = new Intent(selectNPCList.this, CreateNpcActivity.class);
+                startActivity(intent);
+                return false;
+            }
+        });
+        return true;
+    }
     @Override
     protected void onListItemClick(ListView l, View v, int position, long id) {
         super.onListItemClick(l, v, position, id);
     }
-
-    public void startCreateNPCActivity(View view){
-        Intent intent = new Intent(this, CreateNpcActivity.class);
-        startActivity(intent);
-    }
-
 
 }

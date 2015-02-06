@@ -7,15 +7,6 @@
 
 
 
-    <Button android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/new_npc"
-            android:id="@id/newNpcButton"
-            android:onClick="startCreateNPCActivity"
-
-            />
-
-
     <ListView android:layout_width="match_parent"
               android:layout_height="match_parent"
               android:id="@android:id/list"
