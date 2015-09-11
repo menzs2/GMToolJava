@@ -7,7 +7,6 @@ import android.view.Menu;
 import android.view.View;
 import android.widget.Toast;
 import com.example.GMTool.R;
-import com.example.GMTool.selectNPCList;
 
 public class MainActivity extends Activity {
     /**
@@ -23,13 +22,9 @@ public class MainActivity extends Activity {
         getMenuInflater().inflate(R.menu.main, menu);
         return true;
     }
-    public void startSelectNPCActivity(View view){
-        Intent intent = new Intent(this, selectNPCList.class);
-        startActivity(intent);
 
-    }
-    public void startSelectFactionActivity(View view){
-        Toast.makeText(getApplicationContext(), "not implemented yet",
-                Toast.LENGTH_LONG).show();
+    public void openCampaignActivity(View view){
+        Intent intent = new Intent(this, CampaignActivity.class);
+        startActivity(intent);
     }
 }

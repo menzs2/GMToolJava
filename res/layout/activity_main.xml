@@ -8,14 +8,9 @@
     <Button android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:id="@id/startButton"
-            android:text="@string/start_NPC_selection_button"
-            android:onClick="startSelectNPCActivity"/>
+            android:text="Open Campaign"
+            android:onClick="openCampaignActivity"/>
 
-    <Button android:layout_width="150dp"
-            android:layout_height="wrap_content"
-            android:id="@id/startButton"
-            android:text="Select Faction"
-            android:onClick="startSelectFactionActivity"/>
 
 </LinearLayout>
 

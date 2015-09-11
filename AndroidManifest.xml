@@ -7,16 +7,17 @@
 
     <application android:label="@string/app_name"
                  android:icon="@drawable/ic_launcher">
-        <activity android:name="MainActivity"
+        <activity android:name=".Activities.MainActivity"
                   android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name="selectNPCList"
+        <activity android:name=".Activities.selectNPCList"
                 android:label="NPC Selector"/>
-        <activity android:name=".CreateNpcActivity"/>
+        <activity android:name=".Activities.CreateNpcActivity"/>
+        <activity android:name=".Activities.CampaignActivity" android:label="campaing"/>
 
     </application>
 </manifest>
