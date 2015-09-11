@@ -1,7 +1,8 @@
-package com.example.GMTool;
+package com.example.GMTool.Activities;
 
 import android.app.Activity;
 import android.os.Bundle;
+import com.example.GMTool.R;
 
 /**
  * Created by Thunderchild on 07.04.2014.

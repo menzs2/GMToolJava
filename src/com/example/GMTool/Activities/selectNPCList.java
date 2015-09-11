@@ -1,6 +1,5 @@
-package com.example.GMTool;
+package com.example.GMTool.Activities;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
@@ -10,6 +9,7 @@ import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.app.ListActivity;
+import com.example.GMTool.R;
 
 import java.util.ArrayList;
 import java.util.List;
