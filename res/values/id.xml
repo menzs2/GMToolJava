@@ -3,5 +3,6 @@
     <item name="startButton" type="id"/>
     <item name="selectNPCList" type="id"/>
     <item name="newNpcButton" type="id"/>
+    <item name="newCampaignButton" type="id"/>
 
 </resources>

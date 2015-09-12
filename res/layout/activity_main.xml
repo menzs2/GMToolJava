@@ -2,15 +2,19 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:orientation="vertical"
               android:layout_width="fill_parent"
-              android:layout_height="fill_parent"
-        >
+              android:layout_height="fill_parent">
 
-    <Button android:layout_width="150dp"
+    <Button android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@id/newCampaignButton"
+            android:text="new Campaign"
+            android:onClick="openCampaignActivity"/>
+
+    <Button android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:id="@id/startButton"
             android:text="Open Campaign"
             android:onClick="openCampaignActivity"/>
-
 
 </LinearLayout>
 
