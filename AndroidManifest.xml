@@ -17,7 +17,7 @@
         <activity android:name=".Activities.selectNPCList"
                 android:label="NPC Selector"/>
         <activity android:name=".Activities.CreateNpcActivity"/>
-        <activity android:name=".Activities.CampaignActivity" android:label="campaing"/>
+        <activity android:name=".Activities.CampaignActivity" android:label="campaign"/>
 
     </application>
 </manifest>
