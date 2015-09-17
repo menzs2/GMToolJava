@@ -6,7 +6,7 @@
     <uses-sdk android:minSdkVersion="19"/>
 
     <application android:label="@string/app_name"
-                 android:icon="@drawable/ic_launcher_rpg">
+                 android:icon="@mipmap/ic_launcher_rpg">
         <activity android:name=".Activities.MainActivity"
                   android:label="@string/app_name">
             <intent-filter>
@@ -17,7 +17,7 @@
         <activity android:name=".Activities.selectNPCList"
                 android:label="NPC Selector"/>
         <activity android:name=".Activities.CreateNpcActivity"/>
-        <activity android:name=".Activities.CampaignActivity" android:label="campaign"/>
+        <activity android:name=".Activities.CampaignActivity" android:label="Campaign"/>
 
     </application>
 </manifest>
